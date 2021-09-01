@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D21BEF3326E02297005E3B83 /* WoomanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21BEF3226E02297005E3B83 /* WoomanView.swift */; };
 		D2AF8C0226DEC2CD002D44A1 /* changeChildNameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF8C0126DEC2CD002D44A1 /* changeChildNameApp.swift */; };
 		D2AF8C0426DEC2CD002D44A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF8C0326DEC2CD002D44A1 /* ContentView.swift */; };
 		D2AF8C0626DEC2CE002D44A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2AF8C0526DEC2CE002D44A1 /* Assets.xcassets */; };
 		D2AF8C0926DEC2CE002D44A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2AF8C0826DEC2CE002D44A1 /* Preview Assets.xcassets */; };
+		D2AF8C1726DECEA7002D44A1 /* ManView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF8C1626DECEA7002D44A1 /* ManView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D21BEF3226E02297005E3B83 /* WoomanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoomanView.swift; sourceTree = "<group>"; };
 		D2AF8BFE26DEC2CD002D44A1 /* changeChildName.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = changeChildName.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2AF8C0126DEC2CD002D44A1 /* changeChildNameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = changeChildNameApp.swift; sourceTree = "<group>"; };
 		D2AF8C0326DEC2CD002D44A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D2AF8C0526DEC2CE002D44A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2AF8C0826DEC2CE002D44A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D2AF8C0A26DEC2CE002D44A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2AF8C1626DECEA7002D44A1 /* ManView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				D2AF8C0126DEC2CD002D44A1 /* changeChildNameApp.swift */,
 				D2AF8C0326DEC2CD002D44A1 /* ContentView.swift */,
+				D2AF8C1526DECE8D002D44A1 /* ViewChangeCategoryName */,
+				D2AF8C1126DEC421002D44A1 /* FuncFirstView */,
 				D2AF8C0526DEC2CE002D44A1 /* Assets.xcassets */,
 				D2AF8C0A26DEC2CE002D44A1 /* Info.plist */,
 				D2AF8C0726DEC2CE002D44A1 /* Preview Content */,
@@ -67,6 +73,22 @@
 				D2AF8C0826DEC2CE002D44A1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D2AF8C1126DEC421002D44A1 /* FuncFirstView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FuncFirstView;
+			sourceTree = "<group>";
+		};
+		D2AF8C1526DECE8D002D44A1 /* ViewChangeCategoryName */ = {
+			isa = PBXGroup;
+			children = (
+				D2AF8C1626DECEA7002D44A1 /* ManView.swift */,
+				D21BEF3226E02297005E3B83 /* WoomanView.swift */,
+			);
+			path = ViewChangeCategoryName;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +161,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2AF8C0426DEC2CD002D44A1 /* ContentView.swift in Sources */,
+				D2AF8C1726DECEA7002D44A1 /* ManView.swift in Sources */,
 				D2AF8C0226DEC2CD002D44A1 /* changeChildNameApp.swift in Sources */,
+				D21BEF3326E02297005E3B83 /* WoomanView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +304,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = KiKoTeam.changeChildName;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,7 +326,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = KiKoTeam.changeChildName;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
