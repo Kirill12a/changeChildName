@@ -20,7 +20,7 @@ struct ContentView: View {
                 VStack{
                     NavigationLink(
                         
-                        destination: ManView(),
+                        destination: WoomanView(),
                         label: {
                             
                             Image(uiImage:#imageLiteral(resourceName: "girl"))
@@ -39,6 +39,7 @@ struct ContentView: View {
                             
                         })
                 }
+                Spacer()
                 
                 
             }

@@ -37,6 +37,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D2AC368726E1660C00D7B20B /* ManNameCategorySelectionMan */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ManNameCategorySelectionMan;
+			sourceTree = "<group>";
+		};
 		D2AF8BF526DEC2CC002D44A1 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				D2AF8C1626DECEA7002D44A1 /* ManView.swift */,
+				D2AC368726E1660C00D7B20B /* ManNameCategorySelectionMan */,
 				D21BEF3226E02297005E3B83 /* WoomanView.swift */,
 			);
 			path = ViewChangeCategoryName;
