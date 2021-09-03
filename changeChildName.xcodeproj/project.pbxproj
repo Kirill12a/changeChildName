@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		D21BEF3326E02297005E3B83 /* WoomanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21BEF3226E02297005E3B83 /* WoomanView.swift */; };
+		D2AC368A26E2A85100D7B20B /* RussinanNameM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC368926E2A85100D7B20B /* RussinanNameM.swift */; };
+		D2AC368D26E2A87B00D7B20B /* EuropeanNameM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC368C26E2A87B00D7B20B /* EuropeanNameM.swift */; };
+		D2AC369026E2A89700D7B20B /* USANameM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC368F26E2A89700D7B20B /* USANameM.swift */; };
+		D2AC369326E2A8B800D7B20B /* MuslimNameM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC369226E2A8B800D7B20B /* MuslimNameM.swift */; };
+		D2AC369726E2A9A300D7B20B /* RussinanNameW.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC369626E2A9A300D7B20B /* RussinanNameW.swift */; };
+		D2AC369A26E2A9AD00D7B20B /* EuropeanNameW.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC369926E2A9AD00D7B20B /* EuropeanNameW.swift */; };
+		D2AC369D26E2A9B600D7B20B /* USANameW.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC369C26E2A9B600D7B20B /* USANameW.swift */; };
+		D2AC36A026E2A9C100D7B20B /* MuslimNameW.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC369F26E2A9C100D7B20B /* MuslimNameW.swift */; };
 		D2AF8C0226DEC2CD002D44A1 /* changeChildNameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF8C0126DEC2CD002D44A1 /* changeChildNameApp.swift */; };
 		D2AF8C0426DEC2CD002D44A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF8C0326DEC2CD002D44A1 /* ContentView.swift */; };
 		D2AF8C0626DEC2CE002D44A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2AF8C0526DEC2CE002D44A1 /* Assets.xcassets */; };
@@ -17,6 +25,14 @@
 
 /* Begin PBXFileReference section */
 		D21BEF3226E02297005E3B83 /* WoomanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoomanView.swift; sourceTree = "<group>"; };
+		D2AC368926E2A85100D7B20B /* RussinanNameM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RussinanNameM.swift; sourceTree = "<group>"; };
+		D2AC368C26E2A87B00D7B20B /* EuropeanNameM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuropeanNameM.swift; sourceTree = "<group>"; };
+		D2AC368F26E2A89700D7B20B /* USANameM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USANameM.swift; sourceTree = "<group>"; };
+		D2AC369226E2A8B800D7B20B /* MuslimNameM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuslimNameM.swift; sourceTree = "<group>"; };
+		D2AC369626E2A9A300D7B20B /* RussinanNameW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RussinanNameW.swift; sourceTree = "<group>"; };
+		D2AC369926E2A9AD00D7B20B /* EuropeanNameW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuropeanNameW.swift; sourceTree = "<group>"; };
+		D2AC369C26E2A9B600D7B20B /* USANameW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USANameW.swift; sourceTree = "<group>"; };
+		D2AC369F26E2A9C100D7B20B /* MuslimNameW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuslimNameW.swift; sourceTree = "<group>"; };
 		D2AF8BFE26DEC2CD002D44A1 /* changeChildName.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = changeChildName.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2AF8C0126DEC2CD002D44A1 /* changeChildNameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = changeChildNameApp.swift; sourceTree = "<group>"; };
 		D2AF8C0326DEC2CD002D44A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,8 +56,23 @@
 		D2AC368726E1660C00D7B20B /* ManNameCategorySelectionMan */ = {
 			isa = PBXGroup;
 			children = (
+				D2AC368926E2A85100D7B20B /* RussinanNameM.swift */,
+				D2AC368C26E2A87B00D7B20B /* EuropeanNameM.swift */,
+				D2AC368F26E2A89700D7B20B /* USANameM.swift */,
+				D2AC369226E2A8B800D7B20B /* MuslimNameM.swift */,
 			);
 			path = ManNameCategorySelectionMan;
+			sourceTree = "<group>";
+		};
+		D2AC369526E2A96C00D7B20B /* WoomanNameCategorySelectionWooman */ = {
+			isa = PBXGroup;
+			children = (
+				D2AC369626E2A9A300D7B20B /* RussinanNameW.swift */,
+				D2AC369926E2A9AD00D7B20B /* EuropeanNameW.swift */,
+				D2AC369C26E2A9B600D7B20B /* USANameW.swift */,
+				D2AC369F26E2A9C100D7B20B /* MuslimNameW.swift */,
+			);
+			path = WoomanNameCategorySelectionWooman;
 			sourceTree = "<group>";
 		};
 		D2AF8BF526DEC2CC002D44A1 = {
@@ -95,6 +126,7 @@
 				D2AF8C1626DECEA7002D44A1 /* ManView.swift */,
 				D2AC368726E1660C00D7B20B /* ManNameCategorySelectionMan */,
 				D21BEF3226E02297005E3B83 /* WoomanView.swift */,
+				D2AC369526E2A96C00D7B20B /* WoomanNameCategorySelectionWooman */,
 			);
 			path = ViewChangeCategoryName;
 			sourceTree = "<group>";
@@ -168,10 +200,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2AC369D26E2A9B600D7B20B /* USANameW.swift in Sources */,
+				D2AC368A26E2A85100D7B20B /* RussinanNameM.swift in Sources */,
+				D2AC369A26E2A9AD00D7B20B /* EuropeanNameW.swift in Sources */,
+				D2AC36A026E2A9C100D7B20B /* MuslimNameW.swift in Sources */,
+				D2AC369326E2A8B800D7B20B /* MuslimNameM.swift in Sources */,
+				D2AC368D26E2A87B00D7B20B /* EuropeanNameM.swift in Sources */,
+				D2AC369026E2A89700D7B20B /* USANameM.swift in Sources */,
 				D2AF8C0426DEC2CD002D44A1 /* ContentView.swift in Sources */,
 				D2AF8C1726DECEA7002D44A1 /* ManView.swift in Sources */,
 				D2AF8C0226DEC2CD002D44A1 /* changeChildNameApp.swift in Sources */,
 				D21BEF3326E02297005E3B83 /* WoomanView.swift in Sources */,
+				D2AC369726E2A9A300D7B20B /* RussinanNameW.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

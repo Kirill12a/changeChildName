@@ -18,7 +18,9 @@ struct ContentView: View {
                 ///__(|||||)__///
                 
                 VStack{
+                    Spacer()
                     NavigationLink(
+                        
                         
                         destination: WoomanView(),
                         label: {
@@ -27,6 +29,7 @@ struct ContentView: View {
                                 .offset(x: offset.width, y: offset.height - 100)
                             
                         })
+                    Spacer()
                     
                     
                     

@@ -16,7 +16,7 @@ struct ManView: View {
             
             HStack{
                 NavigationLink(
-                    destination: Text("Destination"),
+                    destination: EuropeanNameM(),
                     label: {
                         Image(uiImage: #imageLiteral(resourceName: "european-union-3"))
                     })
@@ -24,7 +24,7 @@ struct ManView: View {
             }
             HStack{
                 NavigationLink(
-                    destination: Text("Destination"),
+                    destination: MuslimNameM(),
                     label: {
                         Image(uiImage: #imageLiteral(resourceName: "kaaba"))
                         
@@ -36,14 +36,14 @@ struct ManView: View {
             HStack{
                 
                 NavigationLink(
-                    destination: Text("Destination"),
+                    destination: RussinanNameM(),
                     label: {
                         Image(uiImage: #imageLiteral(resourceName: "russia"))
                     })
              
                 
                 NavigationLink(
-                    destination: Text("Destination"),
+                    destination:USANameM(),
                     label: {
 Image(uiImage: #imageLiteral(resourceName: "united-states"))
                         
