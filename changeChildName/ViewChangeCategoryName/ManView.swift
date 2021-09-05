@@ -56,10 +56,12 @@ Image(uiImage: #imageLiteral(resourceName: "united-states"))
         Spacer()
         
         
-        //            .navigationBarBackButtonHidden(true) - это чтобы не было кнопки назад
- 
+               
         }
+        
+
     }
+        .navigationBarBackButtonHidden(true)
     }
 }
 

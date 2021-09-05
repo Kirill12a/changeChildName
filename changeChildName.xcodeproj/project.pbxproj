@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D21BEF3326E02297005E3B83 /* WoomanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21BEF3226E02297005E3B83 /* WoomanView.swift */; };
+		D2A24CFD26E55FDB0044025F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A24CFC26E55FDB0044025F /* CardView.swift */; };
 		D2AC368A26E2A85100D7B20B /* RussinanNameM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC368926E2A85100D7B20B /* RussinanNameM.swift */; };
 		D2AC368D26E2A87B00D7B20B /* EuropeanNameM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC368C26E2A87B00D7B20B /* EuropeanNameM.swift */; };
 		D2AC369026E2A89700D7B20B /* USANameM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC368F26E2A89700D7B20B /* USANameM.swift */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		D21BEF3226E02297005E3B83 /* WoomanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoomanView.swift; sourceTree = "<group>"; };
+		D2A24CFC26E55FDB0044025F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		D2AC368926E2A85100D7B20B /* RussinanNameM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RussinanNameM.swift; sourceTree = "<group>"; };
 		D2AC368C26E2A87B00D7B20B /* EuropeanNameM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuropeanNameM.swift; sourceTree = "<group>"; };
 		D2AC368F26E2A89700D7B20B /* USANameM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USANameM.swift; sourceTree = "<group>"; };
@@ -53,13 +55,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D2AC368726E1660C00D7B20B /* ManNameCategorySelectionMan */ = {
+		D2A24CF626E55E950044025F /* Russian */ = {
 			isa = PBXGroup;
 			children = (
 				D2AC368926E2A85100D7B20B /* RussinanNameM.swift */,
+			);
+			path = Russian;
+			sourceTree = "<group>";
+		};
+		D2A24CF826E55EA80044025F /* European */ = {
+			isa = PBXGroup;
+			children = (
 				D2AC368C26E2A87B00D7B20B /* EuropeanNameM.swift */,
+			);
+			path = European;
+			sourceTree = "<group>";
+		};
+		D2A24CFA26E55EB70044025F /* USA */ = {
+			isa = PBXGroup;
+			children = (
 				D2AC368F26E2A89700D7B20B /* USANameM.swift */,
+			);
+			path = USA;
+			sourceTree = "<group>";
+		};
+		D2A24CFB26E55EDC0044025F /* Muslim */ = {
+			isa = PBXGroup;
+			children = (
 				D2AC369226E2A8B800D7B20B /* MuslimNameM.swift */,
+			);
+			path = Muslim;
+			sourceTree = "<group>";
+		};
+		D2AC368726E1660C00D7B20B /* ManNameCategorySelectionMan */ = {
+			isa = PBXGroup;
+			children = (
+				D2A24CFC26E55FDB0044025F /* CardView.swift */,
+				D2A24CF626E55E950044025F /* Russian */,
+				D2A24CF826E55EA80044025F /* European */,
+				D2A24CFA26E55EB70044025F /* USA */,
+				D2A24CFB26E55EDC0044025F /* Muslim */,
 			);
 			path = ManNameCategorySelectionMan;
 			sourceTree = "<group>";
@@ -209,6 +244,7 @@
 				D2AC369026E2A89700D7B20B /* USANameM.swift in Sources */,
 				D2AF8C0426DEC2CD002D44A1 /* ContentView.swift in Sources */,
 				D2AF8C1726DECEA7002D44A1 /* ManView.swift in Sources */,
+				D2A24CFD26E55FDB0044025F /* CardView.swift in Sources */,
 				D2AF8C0226DEC2CD002D44A1 /* changeChildNameApp.swift in Sources */,
 				D21BEF3326E02297005E3B83 /* WoomanView.swift in Sources */,
 				D2AC369726E2A9A300D7B20B /* RussinanNameW.swift in Sources */,
