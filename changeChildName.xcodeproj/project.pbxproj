@@ -55,6 +55,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D20BF23626E69AB30057931F /* Russian */ = {
+			isa = PBXGroup;
+			children = (
+				D2AC369626E2A9A300D7B20B /* RussinanNameW.swift */,
+			);
+			path = Russian;
+			sourceTree = "<group>";
+		};
+		D20BF23726E69AC30057931F /* European */ = {
+			isa = PBXGroup;
+			children = (
+				D2AC369926E2A9AD00D7B20B /* EuropeanNameW.swift */,
+			);
+			path = European;
+			sourceTree = "<group>";
+		};
+		D20BF23826E69AD00057931F /* USA */ = {
+			isa = PBXGroup;
+			children = (
+				D2AC369C26E2A9B600D7B20B /* USANameW.swift */,
+			);
+			path = USA;
+			sourceTree = "<group>";
+		};
+		D20BF23926E69AD80057931F /* Muslim */ = {
+			isa = PBXGroup;
+			children = (
+				D2AC369F26E2A9C100D7B20B /* MuslimNameW.swift */,
+			);
+			path = Muslim;
+			sourceTree = "<group>";
+		};
 		D2A24CF626E55E950044025F /* Russian */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,10 +134,10 @@
 		D2AC369526E2A96C00D7B20B /* WoomanNameCategorySelectionWooman */ = {
 			isa = PBXGroup;
 			children = (
-				D2AC369626E2A9A300D7B20B /* RussinanNameW.swift */,
-				D2AC369926E2A9AD00D7B20B /* EuropeanNameW.swift */,
-				D2AC369C26E2A9B600D7B20B /* USANameW.swift */,
-				D2AC369F26E2A9C100D7B20B /* MuslimNameW.swift */,
+				D20BF23626E69AB30057931F /* Russian */,
+				D20BF23726E69AC30057931F /* European */,
+				D20BF23826E69AD00057931F /* USA */,
+				D20BF23926E69AD80057931F /* Muslim */,
 			);
 			path = WoomanNameCategorySelectionWooman;
 			sourceTree = "<group>";
