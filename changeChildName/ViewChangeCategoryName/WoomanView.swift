@@ -1,11 +1,6 @@
-//
-//  WoomanView.swift
-//  changeChildName
-//
-//  Created by Kirill Drozdov on 02.09.2021.
-//
 
 import SwiftUI
+
 
 struct WoomanView: View {
     var body: some View {

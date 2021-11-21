@@ -1,9 +1,4 @@
-//
-//  MuslimNameW.swift
-//  changeChildName
-//
-//  Created by Kirill Drozdov on 03.09.2021.
-//
+
 
 import SwiftUI
 
@@ -23,7 +18,7 @@ struct MuslimNameW: View {
         return geometry.size.width - offset // это отвечает за нахождение блока карточек, типо они будут друг под другом или будут под откос в лево
     }
      
-    /// Return the CardViews frame offset for the given offset in the array
+    
     /// - Parameters: - geometry: The geometry proxy of the parent, - id: The ID of the current user
     private func getCardOffset(_ geometry: GeometryProxy, id: Int) -> CGFloat {
         return  CGFloat(usersMuslimWooman.count - 24 - id) * 10 // можно менять расположение картинок на экарне, если поменять 8 на что то другое

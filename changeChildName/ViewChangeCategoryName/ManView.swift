@@ -1,9 +1,4 @@
-//
-//  ManView.swift
-//  changeChildName
-//
-//  Created by Kirill Drozdov on 31.08.2021.
-//
+
 
 import SwiftUI
 
@@ -51,14 +46,10 @@ Image(uiImage: #imageLiteral(resourceName: "united-states"))
                 
             }
             .padding(20)
-           
-        
+      
         Spacer()
-        
-        
-               
+         
         }
-        
 
     }
         .navigationBarBackButtonHidden(true)

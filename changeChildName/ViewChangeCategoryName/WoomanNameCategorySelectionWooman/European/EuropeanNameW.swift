@@ -3,7 +3,6 @@
 //  changeChildName
 //
 //  Created by Kirill Drozdov on 03.09.2021.
-//
 
 import SwiftUI
 
